@@ -6,9 +6,9 @@ print(student[-1])
 
 # question 2
 
-foods=['apple','banana','orange','grape','watermelon','kiwi']
+foods=('apple','banana','orange','grape','watermelon','kiwi')
 for food in foods:
-    print("food goes here is a good food")
+    print(food  + " is a good food")
 
 # question 3
 
@@ -23,7 +23,35 @@ home_town = {
     "state":'fahaheel',
     "population":'1000000'
 }
-for hometown, stuff in home_town.items():
-    print("I was born in" + city() + state() + population())
+x=home_town["city"]
+y=home_town["state"]
+z=home_town["population"]
+print("I was born in "+ ( x )  +", " + ( y ) + " - population of " + ( z ))
 
 
+
+# question 5
+for key, value in home_town.items():
+    print(key,value)
+
+
+# # question 6
+
+cohort = []
+for name in cohort:
+    cohort.append('student':'tina')
+# a={'student': 'Tina'}
+# cohort.append(dict(a))
+# print(cohort)
+
+# for quantity in foods.items():
+    
+#     cohort.append([foods]*quantity)
+
+# print(fruits_list)
+
+
+
+# question 7
+awesome_students= student
+print(awesome_students)
